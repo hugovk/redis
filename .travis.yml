@@ -110,9 +110,6 @@ before_install:
   - ls /home/travis/.config/composer/vendor/bin
   - find "$HOME" | grep drupal-ti
   - ls "$HOME"
-  - ls "$HOME/.composer"
-  - ls "$HOME/.composer/vendor"
-  - ls "$HOME/.composer/vendor/bin"
   - drupal-ti before_install
 
 install:
