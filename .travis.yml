@@ -104,6 +104,9 @@ before_install:
   - composer global require lionsad/drupal_ti
   - composer global update
   - PATH="$PATH:$HOME/.composer/vendor/bin"
+  - ls "$HOME"
+  - ls "$HOME/.composer"
+  - ls "$HOME/.composer/vendor"
   - ls "$HOME/.composer/vendor/bin"
   - drupal-ti before_install
 
