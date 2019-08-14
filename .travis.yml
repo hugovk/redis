@@ -103,7 +103,7 @@ before_install:
   - composer self-update
   - composer global require lionsad/drupal_ti
   - composer global update
-  - PATH="$PATH:$HOME/.composer/vendor/bin"
+  - PATH="$PATH:$HOME/.config/composer/vendor/bin"
   - echo $HOME
   - ls /home/travis/.config/composer
   - ls /home/travis/.config/composer/vendor
