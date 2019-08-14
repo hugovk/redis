@@ -6,6 +6,7 @@
 # Based for simpletest upon:
 #   https://github.com/sonnym/travis-ci-drupal-module-example
 
+dist: trusty
 language: php
 
 php:
